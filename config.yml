@@ -1,0 +1,28 @@
+baseURL: 'https://psr-hub.soli0222.com/'
+languageCode: ja-jp
+title: Polestar Hub
+theme: PaperMod
+
+params:
+    homeInfoParams:
+        Title: Polestar Hub
+        Content: >
+            PolestarはSoliが管理するMisskeyサーバーです。
+            
+            - 当サイトでは、Polestarに関する情報を掲載しています。
+    socialIcons:
+        - name: github
+          url: "https://github.com/Soli0222/polestar-hub"
+        - name: Polestar
+          url: "https://mi.soli0222.com/"
+
+menu:
+  main:
+    - identifier: Tags
+      name: Tags
+      url: /tags/
+      weight: 10
+    - identifier: Contact
+      name: Contact
+      url: /contact
+      weight: 20
