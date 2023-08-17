@@ -1,0 +1,44 @@
+baseURL = 'https://psr-hub.soli0222.com/'
+languageCode = 'ja-jp'
+title = 'Polestar Hub'
+theme = 'blackburn'
+
+# Shown in the side menu
+copyright = "&copy; 2023. All rights reserved."
+canonifyurls = true
+paginate = 10
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  # Shown in the home page
+  subtitle = "A Misskey Server"
+  brand = "Polestar"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Post"
+    pre = "<i class='fa fa-comment fa-fw'></i>"
+    weight = 3
+    identifier = "post"
+    url = "/post"
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 4
+    identifier = "about"
+    url = "/about/"
+  [[menu.main]]
+    name = "Contact"
+    pre = "<i class='fa fa-phone fa-fw'></i>"
+    weight = 5
+    url = "/contact/"
