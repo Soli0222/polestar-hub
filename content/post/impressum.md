@@ -15,9 +15,7 @@ Soli ([@soli_0222@mi.soli0222.com](https://mi.soli0222.com/@Soli_0222))
 
 ## サイトURL
 
-- [MySite](https://soli0222.com)
-- [Polestar](https://mi.soli0222.com/@Soli_0222)
-- [X](https://x.com/Soli_0222)
+[https://soli0222.com](https://soli0222.com)
   
 ## お問い合わせ
 
